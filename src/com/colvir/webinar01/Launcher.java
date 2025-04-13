@@ -38,7 +38,7 @@ public class Launcher {
                             .stream().sorted()
                             .toArray(String[]::new);
         for (String s : result) {
-            System.out.println(s);
+            System.out.print(s);
         }
     }
 }

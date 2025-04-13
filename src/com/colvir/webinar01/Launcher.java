@@ -20,7 +20,7 @@ public class Launcher {
             reader.close();
             sContent = stringBuilder.toString();
         } catch (IOException e){
-            e.printStackTrace(); // asdasd
+            e.printStackTrace(); // asdasdas
         }
 
         return sContent;
